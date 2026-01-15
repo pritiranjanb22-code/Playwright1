@@ -1,0 +1,816 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - text:             
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "PRODUCT STORE" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img [ref=e5]
+        - text: PRODUCT STORE
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home (current)" [ref=e9] [cursor=pointer]:
+            - /url: index.html
+            - text: Home
+            - generic [ref=e10]: (current)
+        - listitem [ref=e11]:
+          - link "Contact" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e13]:
+          - link "About us" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e15]:
+          - link "Cart" [ref=e16] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e17]:
+          - link "Log in" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+        - listitem
+        - listitem
+        - listitem [ref=e19]:
+          - link "Sign up" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Products" [level=2] [ref=e24]
+      - table [ref=e26]:
+        - rowgroup [ref=e27]:
+          - row "Pic Title Price x" [ref=e28]:
+            - columnheader "Pic" [ref=e29]
+            - columnheader "Title" [ref=e30]
+            - columnheader "Price" [ref=e31]
+            - columnheader "x" [ref=e32]
+        - rowgroup [ref=e33]:
+          - row "Samsung galaxy s6 360 Delete" [ref=e34]:
+            - cell [ref=e35]:
+              - img [ref=e36]
+            - cell "Samsung galaxy s6" [ref=e37]
+            - cell "360" [ref=e38]
+            - cell "Delete" [ref=e39]:
+              - link "Delete" [ref=e40] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e41]:
+            - cell [ref=e42]:
+              - img [ref=e43]
+            - cell "Sony vaio i7" [ref=e44]
+            - cell "790" [ref=e45]
+            - cell "Delete" [ref=e46]:
+              - link "Delete" [ref=e47] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony xperia z5 320 Delete" [ref=e48]:
+            - cell [ref=e49]:
+              - img [ref=e50]
+            - cell "Sony xperia z5" [ref=e51]
+            - cell "320" [ref=e52]
+            - cell "Delete" [ref=e53]:
+              - link "Delete" [ref=e54] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e55]:
+            - cell [ref=e56]:
+              - img [ref=e57]
+            - cell "Samsung galaxy s6" [ref=e58]
+            - cell "360" [ref=e59]
+            - cell "Delete" [ref=e60]:
+              - link "Delete" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+          - row "Iphone 6 32gb 790 Delete" [ref=e62]:
+            - cell [ref=e63]:
+              - img [ref=e64]
+            - cell "Iphone 6 32gb" [ref=e65]
+            - cell "790" [ref=e66]
+            - cell "Delete" [ref=e67]:
+              - link "Delete" [ref=e68] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e69]:
+            - cell [ref=e70]:
+              - img [ref=e71]
+            - cell "Samsung galaxy s6" [ref=e72]
+            - cell "360" [ref=e73]
+            - cell "Delete" [ref=e74]:
+              - link "Delete" [ref=e75] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e76]:
+            - cell [ref=e77]:
+              - img [ref=e78]
+            - cell "Samsung galaxy s6" [ref=e79]
+            - cell "360" [ref=e80]
+            - cell "Delete" [ref=e81]:
+              - link "Delete" [ref=e82] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e83]:
+            - cell [ref=e84]:
+              - img [ref=e85]
+            - cell "Samsung galaxy s6" [ref=e86]
+            - cell "360" [ref=e87]
+            - cell "Delete" [ref=e88]:
+              - link "Delete" [ref=e89] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e90]:
+            - cell [ref=e91]:
+              - img [ref=e92]
+            - cell "Samsung galaxy s6" [ref=e93]
+            - cell "360" [ref=e94]
+            - cell "Delete" [ref=e95]:
+              - link "Delete" [ref=e96] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e97]:
+            - cell [ref=e98]:
+              - img [ref=e99]
+            - cell "Sony vaio i7" [ref=e100]
+            - cell "790" [ref=e101]
+            - cell "Delete" [ref=e102]:
+              - link "Delete" [ref=e103] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e104]:
+            - cell [ref=e105]:
+              - img [ref=e106]
+            - cell "Apple monitor 24" [ref=e107]
+            - cell "400" [ref=e108]
+            - cell "Delete" [ref=e109]:
+              - link "Delete" [ref=e110] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s7 800 Delete" [ref=e111]:
+            - cell [ref=e112]:
+              - img [ref=e113]
+            - cell "Samsung galaxy s7" [ref=e114]
+            - cell "800" [ref=e115]
+            - cell "Delete" [ref=e116]:
+              - link "Delete" [ref=e117] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s7 800 Delete" [ref=e118]:
+            - cell [ref=e119]:
+              - img [ref=e120]
+            - cell "Samsung galaxy s7" [ref=e121]
+            - cell "800" [ref=e122]
+            - cell "Delete" [ref=e123]:
+              - link "Delete" [ref=e124] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e125]:
+            - cell [ref=e126]:
+              - img [ref=e127]
+            - cell "Samsung galaxy s6" [ref=e128]
+            - cell "360" [ref=e129]
+            - cell "Delete" [ref=e130]:
+              - link "Delete" [ref=e131] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e132]:
+            - cell [ref=e133]:
+              - img [ref=e134]
+            - cell "Sony vaio i5" [ref=e135]
+            - cell "790" [ref=e136]
+            - cell "Delete" [ref=e137]:
+              - link "Delete" [ref=e138] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e139]:
+            - cell [ref=e140]:
+              - img [ref=e141]
+            - cell "MacBook air" [ref=e142]
+            - cell "700" [ref=e143]
+            - cell "Delete" [ref=e144]:
+              - link "Delete" [ref=e145] [cursor=pointer]:
+                - /url: "#"
+          - row "Dell i7 8gb 700 Delete" [ref=e146]:
+            - cell [ref=e147]:
+              - img [ref=e148]
+            - cell "Dell i7 8gb" [ref=e149]
+            - cell "700" [ref=e150]
+            - cell "Delete" [ref=e151]:
+              - link "Delete" [ref=e152] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e153]:
+            - cell [ref=e154]:
+              - img [ref=e155]
+            - cell "Apple monitor 24" [ref=e156]
+            - cell "400" [ref=e157]
+            - cell "Delete" [ref=e158]:
+              - link "Delete" [ref=e159] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e160]:
+            - cell [ref=e161]:
+              - img [ref=e162]
+            - cell "Samsung galaxy s6" [ref=e163]
+            - cell "360" [ref=e164]
+            - cell "Delete" [ref=e165]:
+              - link "Delete" [ref=e166] [cursor=pointer]:
+                - /url: "#"
+          - row "Dell i7 8gb 700 Delete" [ref=e167]:
+            - cell [ref=e168]:
+              - img [ref=e169]
+            - cell "Dell i7 8gb" [ref=e170]
+            - cell "700" [ref=e171]
+            - cell "Delete" [ref=e172]:
+              - link "Delete" [ref=e173] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e174]:
+            - cell [ref=e175]:
+              - img [ref=e176]
+            - cell "Sony vaio i7" [ref=e177]
+            - cell "790" [ref=e178]
+            - cell "Delete" [ref=e179]:
+              - link "Delete" [ref=e180] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e181]:
+            - cell [ref=e182]:
+              - img [ref=e183]
+            - cell "Samsung galaxy s6" [ref=e184]
+            - cell "360" [ref=e185]
+            - cell "Delete" [ref=e186]:
+              - link "Delete" [ref=e187] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e188]:
+            - cell [ref=e189]:
+              - img [ref=e190]
+            - cell "Apple monitor 24" [ref=e191]
+            - cell "400" [ref=e192]
+            - cell "Delete" [ref=e193]:
+              - link "Delete" [ref=e194] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e195]:
+            - cell [ref=e196]:
+              - img [ref=e197]
+            - cell "Samsung galaxy s6" [ref=e198]
+            - cell "360" [ref=e199]
+            - cell "Delete" [ref=e200]:
+              - link "Delete" [ref=e201] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e202]:
+            - cell [ref=e203]:
+              - img [ref=e204]
+            - cell "Samsung galaxy s6" [ref=e205]
+            - cell "360" [ref=e206]
+            - cell "Delete" [ref=e207]:
+              - link "Delete" [ref=e208] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e209]:
+            - cell [ref=e210]:
+              - img [ref=e211]
+            - cell "Sony vaio i5" [ref=e212]
+            - cell "790" [ref=e213]
+            - cell "Delete" [ref=e214]:
+              - link "Delete" [ref=e215] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e216]:
+            - cell [ref=e217]:
+              - img [ref=e218]
+            - cell "Sony vaio i7" [ref=e219]
+            - cell "790" [ref=e220]
+            - cell "Delete" [ref=e221]:
+              - link "Delete" [ref=e222] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e223]:
+            - cell [ref=e224]:
+              - img [ref=e225]
+            - cell "MacBook air" [ref=e226]
+            - cell "700" [ref=e227]
+            - cell "Delete" [ref=e228]:
+              - link "Delete" [ref=e229] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony xperia z5 320 Delete" [ref=e230]:
+            - cell [ref=e231]:
+              - img [ref=e232]
+            - cell "Sony xperia z5" [ref=e233]
+            - cell "320" [ref=e234]
+            - cell "Delete" [ref=e235]:
+              - link "Delete" [ref=e236] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e237]:
+            - cell [ref=e238]:
+              - img [ref=e239]
+            - cell "Sony vaio i7" [ref=e240]
+            - cell "790" [ref=e241]
+            - cell "Delete" [ref=e242]:
+              - link "Delete" [ref=e243] [cursor=pointer]:
+                - /url: "#"
+          - row "Iphone 6 32gb 790 Delete" [ref=e244]:
+            - cell [ref=e245]:
+              - img [ref=e246]
+            - cell "Iphone 6 32gb" [ref=e247]
+            - cell "790" [ref=e248]
+            - cell "Delete" [ref=e249]:
+              - link "Delete" [ref=e250] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e251]:
+            - cell [ref=e252]:
+              - img [ref=e253]
+            - cell "Samsung galaxy s6" [ref=e254]
+            - cell "360" [ref=e255]
+            - cell "Delete" [ref=e256]:
+              - link "Delete" [ref=e257] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e258]:
+            - cell [ref=e259]:
+              - img [ref=e260]
+            - cell "Apple monitor 24" [ref=e261]
+            - cell "400" [ref=e262]
+            - cell "Delete" [ref=e263]:
+              - link "Delete" [ref=e264] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s7 800 Delete" [ref=e265]:
+            - cell [ref=e266]:
+              - img [ref=e267]
+            - cell "Samsung galaxy s7" [ref=e268]
+            - cell "800" [ref=e269]
+            - cell "Delete" [ref=e270]:
+              - link "Delete" [ref=e271] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e272]:
+            - cell [ref=e273]:
+              - img [ref=e274]
+            - cell "Samsung galaxy s6" [ref=e275]
+            - cell "360" [ref=e276]
+            - cell "Delete" [ref=e277]:
+              - link "Delete" [ref=e278] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e279]:
+            - cell [ref=e280]:
+              - img [ref=e281]
+            - cell "MacBook air" [ref=e282]
+            - cell "700" [ref=e283]
+            - cell "Delete" [ref=e284]:
+              - link "Delete" [ref=e285] [cursor=pointer]:
+                - /url: "#"
+          - row "Nokia lumia 1520 820 Delete" [ref=e286]:
+            - cell [ref=e287]:
+              - img [ref=e288]
+            - cell "Nokia lumia 1520" [ref=e289]
+            - cell "820" [ref=e290]
+            - cell "Delete" [ref=e291]:
+              - link "Delete" [ref=e292] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook Pro 1100 Delete" [ref=e293]:
+            - cell [ref=e294]:
+              - img [ref=e295]
+            - cell "MacBook Pro" [ref=e296]
+            - cell "1100" [ref=e297]
+            - cell "Delete" [ref=e298]:
+              - link "Delete" [ref=e299] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e300]:
+            - cell [ref=e301]:
+              - img [ref=e302]
+            - cell "Sony vaio i5" [ref=e303]
+            - cell "790" [ref=e304]
+            - cell "Delete" [ref=e305]:
+              - link "Delete" [ref=e306] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e307]:
+            - cell [ref=e308]:
+              - img [ref=e309]
+            - cell "Sony vaio i7" [ref=e310]
+            - cell "790" [ref=e311]
+            - cell "Delete" [ref=e312]:
+              - link "Delete" [ref=e313] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony xperia z5 320 Delete" [ref=e314]:
+            - cell [ref=e315]:
+              - img [ref=e316]
+            - cell "Sony xperia z5" [ref=e317]
+            - cell "320" [ref=e318]
+            - cell "Delete" [ref=e319]:
+              - link "Delete" [ref=e320] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e321]:
+            - cell [ref=e322]:
+              - img [ref=e323]
+            - cell "Sony vaio i5" [ref=e324]
+            - cell "790" [ref=e325]
+            - cell "Delete" [ref=e326]:
+              - link "Delete" [ref=e327] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e328]:
+            - cell [ref=e329]:
+              - img [ref=e330]
+            - cell "Sony vaio i5" [ref=e331]
+            - cell "790" [ref=e332]
+            - cell "Delete" [ref=e333]:
+              - link "Delete" [ref=e334] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e335]:
+            - cell [ref=e336]:
+              - img [ref=e337]
+            - cell "Samsung galaxy s6" [ref=e338]
+            - cell "360" [ref=e339]
+            - cell "Delete" [ref=e340]:
+              - link "Delete" [ref=e341] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e342]:
+            - cell [ref=e343]:
+              - img [ref=e344]
+            - cell "MacBook air" [ref=e345]
+            - cell "700" [ref=e346]
+            - cell "Delete" [ref=e347]:
+              - link "Delete" [ref=e348] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e349]:
+            - cell [ref=e350]:
+              - img [ref=e351]
+            - cell "MacBook air" [ref=e352]
+            - cell "700" [ref=e353]
+            - cell "Delete" [ref=e354]:
+              - link "Delete" [ref=e355] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s7 800 Delete" [ref=e356]:
+            - cell [ref=e357]:
+              - img [ref=e358]
+            - cell "Samsung galaxy s7" [ref=e359]
+            - cell "800" [ref=e360]
+            - cell "Delete" [ref=e361]:
+              - link "Delete" [ref=e362] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e363]:
+            - cell [ref=e364]:
+              - img [ref=e365]
+            - cell "Sony vaio i5" [ref=e366]
+            - cell "790" [ref=e367]
+            - cell "Delete" [ref=e368]:
+              - link "Delete" [ref=e369] [cursor=pointer]:
+                - /url: "#"
+          - row "Nokia lumia 1520 820 Delete" [ref=e370]:
+            - cell [ref=e371]:
+              - img [ref=e372]
+            - cell "Nokia lumia 1520" [ref=e373]
+            - cell "820" [ref=e374]
+            - cell "Delete" [ref=e375]:
+              - link "Delete" [ref=e376] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e377]:
+            - cell [ref=e378]:
+              - img [ref=e379]
+            - cell "Sony vaio i7" [ref=e380]
+            - cell "790" [ref=e381]
+            - cell "Delete" [ref=e382]:
+              - link "Delete" [ref=e383] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e384]:
+            - cell [ref=e385]:
+              - img [ref=e386]
+            - cell "Sony vaio i7" [ref=e387]
+            - cell "790" [ref=e388]
+            - cell "Delete" [ref=e389]:
+              - link "Delete" [ref=e390] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e391]:
+            - cell [ref=e392]:
+              - img [ref=e393]
+            - cell "Samsung galaxy s6" [ref=e394]
+            - cell "360" [ref=e395]
+            - cell "Delete" [ref=e396]:
+              - link "Delete" [ref=e397] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony xperia z5 320 Delete" [ref=e398]:
+            - cell [ref=e399]:
+              - img [ref=e400]
+            - cell "Sony xperia z5" [ref=e401]
+            - cell "320" [ref=e402]
+            - cell "Delete" [ref=e403]:
+              - link "Delete" [ref=e404] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e405]:
+            - cell [ref=e406]:
+              - img [ref=e407]
+            - cell "MacBook air" [ref=e408]
+            - cell "700" [ref=e409]
+            - cell "Delete" [ref=e410]:
+              - link "Delete" [ref=e411] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s7 800 Delete" [ref=e412]:
+            - cell [ref=e413]:
+              - img [ref=e414]
+            - cell "Samsung galaxy s7" [ref=e415]
+            - cell "800" [ref=e416]
+            - cell "Delete" [ref=e417]:
+              - link "Delete" [ref=e418] [cursor=pointer]:
+                - /url: "#"
+          - row "Nokia lumia 1520 820 Delete" [ref=e419]:
+            - cell [ref=e420]:
+              - img [ref=e421]
+            - cell "Nokia lumia 1520" [ref=e422]
+            - cell "820" [ref=e423]
+            - cell "Delete" [ref=e424]:
+              - link "Delete" [ref=e425] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e426]:
+            - cell [ref=e427]:
+              - img [ref=e428]
+            - cell "Samsung galaxy s6" [ref=e429]
+            - cell "360" [ref=e430]
+            - cell "Delete" [ref=e431]:
+              - link "Delete" [ref=e432] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e433]:
+            - cell [ref=e434]:
+              - img [ref=e435]
+            - cell "Sony vaio i7" [ref=e436]
+            - cell "790" [ref=e437]
+            - cell "Delete" [ref=e438]:
+              - link "Delete" [ref=e439] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e440]:
+            - cell [ref=e441]:
+              - img [ref=e442]
+            - cell "MacBook air" [ref=e443]
+            - cell "700" [ref=e444]
+            - cell "Delete" [ref=e445]:
+              - link "Delete" [ref=e446] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e447]:
+            - cell [ref=e448]:
+              - img [ref=e449]
+            - cell "Sony vaio i5" [ref=e450]
+            - cell "790" [ref=e451]
+            - cell "Delete" [ref=e452]:
+              - link "Delete" [ref=e453] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook Pro 1100 Delete" [ref=e454]:
+            - cell [ref=e455]:
+              - img [ref=e456]
+            - cell "MacBook Pro" [ref=e457]
+            - cell "1100" [ref=e458]
+            - cell "Delete" [ref=e459]:
+              - link "Delete" [ref=e460] [cursor=pointer]:
+                - /url: "#"
+          - row "Dell i7 8gb 700 Delete" [ref=e461]:
+            - cell [ref=e462]:
+              - img [ref=e463]
+            - cell "Dell i7 8gb" [ref=e464]
+            - cell "700" [ref=e465]
+            - cell "Delete" [ref=e466]:
+              - link "Delete" [ref=e467] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e468]:
+            - cell [ref=e469]:
+              - img [ref=e470]
+            - cell "Samsung galaxy s6" [ref=e471]
+            - cell "360" [ref=e472]
+            - cell "Delete" [ref=e473]:
+              - link "Delete" [ref=e474] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e475]:
+            - cell [ref=e476]:
+              - img [ref=e477]
+            - cell "Sony vaio i5" [ref=e478]
+            - cell "790" [ref=e479]
+            - cell "Delete" [ref=e480]:
+              - link "Delete" [ref=e481] [cursor=pointer]:
+                - /url: "#"
+          - row "Nexus 6 650 Delete" [ref=e482]:
+            - cell [ref=e483]:
+              - img [ref=e484]
+            - cell "Nexus 6" [ref=e485]
+            - cell "650" [ref=e486]
+            - cell "Delete" [ref=e487]:
+              - link "Delete" [ref=e488] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e489]:
+            - cell [ref=e490]:
+              - img [ref=e491]
+            - cell "Samsung galaxy s6" [ref=e492]
+            - cell "360" [ref=e493]
+            - cell "Delete" [ref=e494]:
+              - link "Delete" [ref=e495] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e496]:
+            - cell [ref=e497]:
+              - img [ref=e498]
+            - cell "Samsung galaxy s6" [ref=e499]
+            - cell "360" [ref=e500]
+            - cell "Delete" [ref=e501]:
+              - link "Delete" [ref=e502] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e503]:
+            - cell [ref=e504]:
+              - img [ref=e505]
+            - cell "Apple monitor 24" [ref=e506]
+            - cell "400" [ref=e507]
+            - cell "Delete" [ref=e508]:
+              - link "Delete" [ref=e509] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e510]:
+            - cell [ref=e511]:
+              - img [ref=e512]
+            - cell "Samsung galaxy s6" [ref=e513]
+            - cell "360" [ref=e514]
+            - cell "Delete" [ref=e515]:
+              - link "Delete" [ref=e516] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e517]:
+            - cell [ref=e518]:
+              - img [ref=e519]
+            - cell "Sony vaio i5" [ref=e520]
+            - cell "790" [ref=e521]
+            - cell "Delete" [ref=e522]:
+              - link "Delete" [ref=e523] [cursor=pointer]:
+                - /url: "#"
+          - row "Nokia lumia 1520 820 Delete" [ref=e524]:
+            - cell [ref=e525]:
+              - img [ref=e526]
+            - cell "Nokia lumia 1520" [ref=e527]
+            - cell "820" [ref=e528]
+            - cell "Delete" [ref=e529]:
+              - link "Delete" [ref=e530] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e531]:
+            - cell [ref=e532]:
+              - img [ref=e533]
+            - cell "Samsung galaxy s6" [ref=e534]
+            - cell "360" [ref=e535]
+            - cell "Delete" [ref=e536]:
+              - link "Delete" [ref=e537] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e538]:
+            - cell [ref=e539]:
+              - img [ref=e540]
+            - cell "Samsung galaxy s6" [ref=e541]
+            - cell "360" [ref=e542]
+            - cell "Delete" [ref=e543]:
+              - link "Delete" [ref=e544] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e545]:
+            - cell [ref=e546]:
+              - img [ref=e547]
+            - cell "Samsung galaxy s6" [ref=e548]
+            - cell "360" [ref=e549]
+            - cell "Delete" [ref=e550]:
+              - link "Delete" [ref=e551] [cursor=pointer]:
+                - /url: "#"
+          - row "Nokia lumia 1520 820 Delete" [ref=e552]:
+            - cell [ref=e553]:
+              - img [ref=e554]
+            - cell "Nokia lumia 1520" [ref=e555]
+            - cell "820" [ref=e556]
+            - cell "Delete" [ref=e557]:
+              - link "Delete" [ref=e558] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e559]:
+            - cell [ref=e560]:
+              - img [ref=e561]
+            - cell "Apple monitor 24" [ref=e562]
+            - cell "400" [ref=e563]
+            - cell "Delete" [ref=e564]:
+              - link "Delete" [ref=e565] [cursor=pointer]:
+                - /url: "#"
+          - row "MacBook air 700 Delete" [ref=e566]:
+            - cell [ref=e567]:
+              - img [ref=e568]
+            - cell "MacBook air" [ref=e569]
+            - cell "700" [ref=e570]
+            - cell "Delete" [ref=e571]:
+              - link "Delete" [ref=e572] [cursor=pointer]:
+                - /url: "#"
+          - row "Nexus 6 650 Delete" [ref=e573]:
+            - cell [ref=e574]:
+              - img [ref=e575]
+            - cell "Nexus 6" [ref=e576]
+            - cell "650" [ref=e577]
+            - cell "Delete" [ref=e578]:
+              - link "Delete" [ref=e579] [cursor=pointer]:
+                - /url: "#"
+          - row "Apple monitor 24 400 Delete" [ref=e580]:
+            - cell [ref=e581]:
+              - img [ref=e582]
+            - cell "Apple monitor 24" [ref=e583]
+            - cell "400" [ref=e584]
+            - cell "Delete" [ref=e585]:
+              - link "Delete" [ref=e586] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i7 790 Delete" [ref=e587]:
+            - cell [ref=e588]:
+              - img [ref=e589]
+            - cell "Sony vaio i7" [ref=e590]
+            - cell "790" [ref=e591]
+            - cell "Delete" [ref=e592]:
+              - link "Delete" [ref=e593] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony vaio i5 790 Delete" [ref=e594]:
+            - cell [ref=e595]:
+              - img [ref=e596]
+            - cell "Sony vaio i5" [ref=e597]
+            - cell "790" [ref=e598]
+            - cell "Delete" [ref=e599]:
+              - link "Delete" [ref=e600] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e601]:
+            - cell [ref=e602]:
+              - img [ref=e603]
+            - cell "Samsung galaxy s6" [ref=e604]
+            - cell "360" [ref=e605]
+            - cell "Delete" [ref=e606]:
+              - link "Delete" [ref=e607] [cursor=pointer]:
+                - /url: "#"
+          - row "ASUS Full HD 230 Delete" [ref=e608]:
+            - cell [ref=e609]:
+              - img [ref=e610]
+            - cell "ASUS Full HD" [ref=e611]
+            - cell "230" [ref=e612]
+            - cell "Delete" [ref=e613]:
+              - link "Delete" [ref=e614] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e615]:
+            - cell [ref=e616]:
+              - img [ref=e617]
+            - cell "Samsung galaxy s6" [ref=e618]
+            - cell "360" [ref=e619]
+            - cell "Delete" [ref=e620]:
+              - link "Delete" [ref=e621] [cursor=pointer]:
+                - /url: "#"
+          - row "Dell i7 8gb 700 Delete" [ref=e622]:
+            - cell [ref=e623]:
+              - img [ref=e624]
+            - cell "Dell i7 8gb" [ref=e625]
+            - cell "700" [ref=e626]
+            - cell "Delete" [ref=e627]:
+              - link "Delete" [ref=e628] [cursor=pointer]:
+                - /url: "#"
+          - row "Sony xperia z5 320 Delete" [ref=e629]:
+            - cell [ref=e630]:
+              - img [ref=e631]
+            - cell "Sony xperia z5" [ref=e632]
+            - cell "320" [ref=e633]
+            - cell "Delete" [ref=e634]:
+              - link "Delete" [ref=e635] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e636]:
+            - cell [ref=e637]:
+              - img [ref=e638]
+            - cell "Samsung galaxy s6" [ref=e639]
+            - cell "360" [ref=e640]
+            - cell "Delete" [ref=e641]:
+              - link "Delete" [ref=e642] [cursor=pointer]:
+                - /url: "#"
+          - row "Dell i7 8gb 700 Delete" [ref=e643]:
+            - cell [ref=e644]:
+              - img [ref=e645]
+            - cell "Dell i7 8gb" [ref=e646]
+            - cell "700" [ref=e647]
+            - cell "Delete" [ref=e648]:
+              - link "Delete" [ref=e649] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e650]:
+            - cell [ref=e651]:
+              - img [ref=e652]
+            - cell "Samsung galaxy s6" [ref=e653]
+            - cell "360" [ref=e654]
+            - cell "Delete" [ref=e655]:
+              - link "Delete" [ref=e656] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e657]:
+            - cell [ref=e658]:
+              - img [ref=e659]
+            - cell "Samsung galaxy s6" [ref=e660]
+            - cell "360" [ref=e661]
+            - cell "Delete" [ref=e662]:
+              - link "Delete" [ref=e663] [cursor=pointer]:
+                - /url: "#"
+          - row "Iphone 6 32gb 790 Delete" [ref=e664]:
+            - cell [ref=e665]:
+              - img [ref=e666]
+            - cell "Iphone 6 32gb" [ref=e667]
+            - cell "790" [ref=e668]
+            - cell "Delete" [ref=e669]:
+              - link "Delete" [ref=e670] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e671]:
+            - cell [ref=e672]:
+              - img [ref=e673]
+            - cell "Samsung galaxy s6" [ref=e674]
+            - cell "360" [ref=e675]
+            - cell "Delete" [ref=e676]:
+              - link "Delete" [ref=e677] [cursor=pointer]:
+                - /url: "#"
+          - row "Samsung galaxy s6 360 Delete" [ref=e678]:
+            - cell [ref=e679]:
+              - img [ref=e680]
+            - cell "Samsung galaxy s6" [ref=e681]
+            - cell "360" [ref=e682]
+            - cell "Delete" [ref=e683]:
+              - link "Delete" [ref=e684] [cursor=pointer]:
+                - /url: "#"
+          - row "Dell i7 8gb 700 Delete" [ref=e685]:
+            - cell [ref=e686]:
+              - img [ref=e687]
+            - cell "Dell i7 8gb" [ref=e688]
+            - cell "700" [ref=e689]
+            - cell "Delete" [ref=e690]:
+              - link "Delete" [ref=e691] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e692]:
+      - heading "Total" [level=2] [ref=e693]
+      - heading "55000" [level=3] [ref=e696]
+      - button "Place Order" [ref=e697]
+  - generic [ref=e699]:
+    - generic [ref=e702]:
+      - heading "About Us" [level=4] [ref=e703]
+      - paragraph [ref=e704]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=e707]:
+      - heading "Get in Touch" [level=4] [ref=e708]
+      - paragraph [ref=e709]: "Address: 2390 El Camino Real"
+      - paragraph [ref=e710]: "Phone: +440 123456"
+      - paragraph [ref=e711]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=e715]:
+      - img [ref=e716]
+      - text: PRODUCT STORE
+  - contentinfo [ref=e717]:
+    - paragraph [ref=e718]: Copyright © Product Store
+```
